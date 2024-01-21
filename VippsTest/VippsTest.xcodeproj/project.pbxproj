@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */; };
 		53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F52B5D280800DA1500 /* VippsTestApp.swift */; };
-		53D487F82B5D280800DA1500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F72B5D280800DA1500 /* ContentView.swift */; };
+		53D487F82B5D280800DA1500 /* WikipediaSearchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */; };
 		53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487F92B5D280B00DA1500 /* Assets.xcassets */; };
 		53D487FD2B5D280B00DA1500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */; };
 		53D488082B5D280B00DA1500 /* VippsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488072B5D280B00DA1500 /* VippsTestTests.swift */; };
@@ -33,9 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSectionView.swift; sourceTree = "<group>"; };
 		53D487F22B5D280800DA1500 /* VippsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VippsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D487F52B5D280800DA1500 /* VippsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestApp.swift; sourceTree = "<group>"; };
-		53D487F72B5D280800DA1500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchHomeView.swift; sourceTree = "<group>"; };
 		53D487F92B5D280B00DA1500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53D487FE2B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,8 +97,7 @@
 		53D487F42B5D280800DA1500 /* VippsTest */ = {
 			isa = PBXGroup;
 			children = (
-				53D487F52B5D280800DA1500 /* VippsTestApp.swift */,
-				53D487F72B5D280800DA1500 /* ContentView.swift */,
+				53D488262B5D2A0D00DA1500 /* Views */,
 				53D487F92B5D280B00DA1500 /* Assets.xcassets */,
 				53D487FE2B5D280B00DA1500 /* Info.plist */,
 				53D487FB2B5D280B00DA1500 /* Preview Content */,
@@ -128,6 +129,16 @@
 				53D488142B5D280B00DA1500 /* Info.plist */,
 			);
 			path = VippsTestUITests;
+			sourceTree = "<group>";
+		};
+		53D488262B5D2A0D00DA1500 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53D487F52B5D280800DA1500 /* VippsTestApp.swift */,
+				53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */,
+				53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D487F82B5D280800DA1500 /* ContentView.swift in Sources */,
+				53D487F82B5D280800DA1500 /* WikipediaSearchHomeView.swift in Sources */,
+				53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */,
 				53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

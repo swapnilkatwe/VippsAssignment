@@ -11,7 +11,7 @@ import SwiftUI
 struct VippsTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WikipediaSearchHomeView()
         }
     }
 }
