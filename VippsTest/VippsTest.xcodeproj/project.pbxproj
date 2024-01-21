@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */; };
+		53B406972B5D35B000FAE7A2 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406962B5D35B000FAE7A2 /* TopicModel.swift */; };
+		53B406A02B5D361300FAE7A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B4069F2B5D361300FAE7A2 /* NetworkService.swift */; };
+		53B406A82B5D387200FAE7A2 /* NetworkAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406A72B5D387200FAE7A2 /* NetworkAPIManager.swift */; };
+		53B406AD2B5D3ADE00FAE7A2 /* DataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406AC2B5D3ADE00FAE7A2 /* DataParsing.swift */; };
+		53B406B32B5D3C5600FAE7A2 /* WikipediaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406B22B5D3C5600FAE7A2 /* WikipediaViewModel.swift */; };
+		53B406BC2B5D3DE900FAE7A2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406BB2B5D3DE900FAE7A2 /* Utilities.swift */; };
 		53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F52B5D280800DA1500 /* VippsTestApp.swift */; };
 		53D487F82B5D280800DA1500 /* WikipediaSearchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */; };
 		53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487F92B5D280B00DA1500 /* Assets.xcassets */; };
@@ -35,6 +41,12 @@
 
 /* Begin PBXFileReference section */
 		53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSectionView.swift; sourceTree = "<group>"; };
+		53B406962B5D35B000FAE7A2 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		53B4069F2B5D361300FAE7A2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		53B406A72B5D387200FAE7A2 /* NetworkAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIManager.swift; sourceTree = "<group>"; };
+		53B406AC2B5D3ADE00FAE7A2 /* DataParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParsing.swift; sourceTree = "<group>"; };
+		53B406B22B5D3C5600FAE7A2 /* WikipediaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaViewModel.swift; sourceTree = "<group>"; };
+		53B406BB2B5D3DE900FAE7A2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		53D487F22B5D280800DA1500 /* VippsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VippsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D487F52B5D280800DA1500 /* VippsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestApp.swift; sourceTree = "<group>"; };
 		53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchHomeView.swift; sourceTree = "<group>"; };
@@ -74,6 +86,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53B406952B5D35A300FAE7A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53B406962B5D35B000FAE7A2 /* TopicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53B4069E2B5D35F600FAE7A2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				53B4069F2B5D361300FAE7A2 /* NetworkService.swift */,
+				53B406A72B5D387200FAE7A2 /* NetworkAPIManager.swift */,
+				53B406AC2B5D3ADE00FAE7A2 /* DataParsing.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		53B406B12B5D3C2F00FAE7A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				53B406B22B5D3C5600FAE7A2 /* WikipediaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53B406BA2B5D3DCD00FAE7A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53B406BB2B5D3DE900FAE7A2 /* Utilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		53D487E92B5D280700DA1500 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +143,10 @@
 		53D487F42B5D280800DA1500 /* VippsTest */ = {
 			isa = PBXGroup;
 			children = (
+				53B406BA2B5D3DCD00FAE7A2 /* Extensions */,
+				53B406B12B5D3C2F00FAE7A2 /* ViewModel */,
+				53B4069E2B5D35F600FAE7A2 /* Networking */,
+				53B406952B5D35A300FAE7A2 /* Model */,
 				53D488262B5D2A0D00DA1500 /* Views */,
 				53D487F92B5D280B00DA1500 /* Assets.xcassets */,
 				53D487FE2B5D280B00DA1500 /* Info.plist */,
@@ -270,8 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B406A02B5D361300FAE7A2 /* NetworkService.swift in Sources */,
 				53D487F82B5D280800DA1500 /* WikipediaSearchHomeView.swift in Sources */,
+				53B406972B5D35B000FAE7A2 /* TopicModel.swift in Sources */,
+				53B406AD2B5D3ADE00FAE7A2 /* DataParsing.swift in Sources */,
+				53B406A82B5D387200FAE7A2 /* NetworkAPIManager.swift in Sources */,
 				53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */,
+				53B406BC2B5D3DE900FAE7A2 /* Utilities.swift in Sources */,
+				53B406B32B5D3C5600FAE7A2 /* WikipediaViewModel.swift in Sources */,
 				53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct WikipediaSearchHomeView: View {
+    
+    //MARK:- Properties
+    @StateObject var viewModel = WikipediaViewModel()
+    @State private var showAlert = false
+
+    //MARK:- Body
     var body: some View {
         GeometryReader { proxy in
             VStack(spacing: 16) {
@@ -24,10 +30,11 @@ struct WikipediaSearchHomeView: View {
                 Spacer()
                 
                 // Search Section
-                SearchSectionView(topicT: "xyz")
+                SearchSectionView(viewModel: viewModel, showAlert: $showAlert)
 
                 // Result Section
                 resultTextView()
+
                 Spacer()
 
             }
@@ -35,12 +42,6 @@ struct WikipediaSearchHomeView: View {
             .background(Color.orange.opacity(0.5))
         }
         .edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        WikipediaSearchHomeView()
     }
 }
 
@@ -52,9 +53,15 @@ private extension WikipediaSearchHomeView {
     }
     
     func resultTextView() -> some View {
-        Text("1")
+        Text("\(viewModel.count)")
             .font(.largeTitle)
             .padding(.top)
-            .foregroundColor( true ? .green : .red)
+            .foregroundColor( (viewModel.count != 0) ? .green : .red)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        WikipediaSearchHomeView()
     }
 }

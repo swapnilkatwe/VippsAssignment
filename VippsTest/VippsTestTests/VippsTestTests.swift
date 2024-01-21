@@ -9,24 +9,26 @@ import XCTest
 @testable import VippsTest
 
 class VippsTestTests: XCTestCase {
-
+    var viewModel: WikipediaViewModel!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try? super.setUpWithError()
+        
+        viewModel = WikipediaViewModel(networkManager: NetworkAPIManager(appConfig: AppConfig.shared))
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        viewModel = nil
+        super.tearDown()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testgetCountForTopic() throws {
+        let topicCount = viewModel.countForSearchedTopic(topicModel: TopicModel(parse: Parse(title: "test", pageid: 1, text: HtmlText(htmlFormat: "<div><p>Norway Norway norway<p> </div>"))), topic: "Norway")
+        XCTAssertEqual(topicCount, 2)
     }
 
     func testPerformanceExample() throws {
-        // This is an example of a performance test case.
         self.measure {
-            // Put the code you want to measure the time of here.
         }
     }
 

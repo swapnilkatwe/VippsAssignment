@@ -7,16 +7,24 @@
 
 import SwiftUI
 
+struct Constants {
+    static let headlineText = "Enter your topic to search"
+    static let textFieldPlaceholder = "Enter Topic"
+    static let buttonText = "Search"
+    static let descriptionText = "Total number of times that topic string appears is:"
+    static let alertTitleText = "Empty Topic"
+    static let alertMessageText = "Please enter a topic before fetching data."
+    static let alertButtonText = "OK"
+}
+
 struct SearchSectionView: View {
     
-    @State var topicT: String
-    struct Constants {
-        static let headlineText = "Enter your topic to search"
-        static let textFieldPlaceholder = "Enter Topic"
-        static let buttonText = "Search"
-        static let descriptionText = "Total number of times that topic string appears is:"
-    }
+    //MARK:- Properties
+    @ObservedObject var viewModel: WikipediaViewModel
+    @Binding var showAlert: Bool
+    @State private var isSearching: Bool = false
     
+    //MARK:- Body
     var body: some View {
         VStack(spacing: 0) {
             Text(Constants.headlineText)
@@ -24,7 +32,7 @@ struct SearchSectionView: View {
                 .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 50)
             
             Group {
-                TextField(Constants.textFieldPlaceholder, text: $topicT)
+                TextField(Constants.textFieldPlaceholder, text: $viewModel.topic)
                     .font(.title2)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
@@ -42,31 +50,49 @@ struct SearchSectionView: View {
                 .multilineTextAlignment(.center)
         }
         .foregroundColor(Color.black.opacity(0.7))
-    }
-}
-
-struct SearchSectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchSectionView(topicT: "test")
+        
+        .alert(isPresented: $showAlert) {
+            Alert(title: Text(Constants.alertTitleText), message: Text(Constants.alertMessageText), dismissButton: .default(Text(Constants.alertButtonText)))
+        }
     }
 }
 
 private extension SearchSectionView {
     
-    private func searchButtonView() -> some View {
+    func searchButtonView() -> some View {
         Button(action: {
-            print("Tapped")
             handleSearchButtonTapped()
         }) {
-            Text(Constants.buttonText)
-            // is Searching
+            HStack {
+                Text(Constants.buttonText)
+                if isSearching {
+                    ProgressView()
+                        .progressViewStyle(CircularProgressViewStyle())
+                        .padding(.trailing, 5)
+                }
+            }
         }
         .buttonStyle(SearchButtonStyle())
         .accessibilityIdentifier("searchButton")
     }
     
     func handleSearchButtonTapped() {
+        isSearching = true
+        hideKeyboard()
+
+        guard !viewModel.topic.isEmpty else {
+            isSearching = false
+            showAlert = true
+            return
+        }
         
+        viewModel.fetchTopicCount(for: viewModel.topic) { _ in
+            isSearching = false
+        }
+    }
+    
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
 
