@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F52B5D280800DA1500 /* VippsTestApp.swift */; };
+		53D487F82B5D280800DA1500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F72B5D280800DA1500 /* ContentView.swift */; };
+		53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487F92B5D280B00DA1500 /* Assets.xcassets */; };
+		53D487FD2B5D280B00DA1500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */; };
+		53D488082B5D280B00DA1500 /* VippsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488072B5D280B00DA1500 /* VippsTestTests.swift */; };
+		53D488132B5D280B00DA1500 /* VippsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488122B5D280B00DA1500 /* VippsTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D488042B5D280B00DA1500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D487EA2B5D280700DA1500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D487F12B5D280800DA1500;
+			remoteInfo = VippsTest;
+		};
+		53D4880F2B5D280B00DA1500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D487EA2B5D280700DA1500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D487F12B5D280800DA1500;
+			remoteInfo = VippsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53D487F22B5D280800DA1500 /* VippsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VippsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D487F52B5D280800DA1500 /* VippsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestApp.swift; sourceTree = "<group>"; };
+		53D487F72B5D280800DA1500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53D487F92B5D280B00DA1500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53D487FE2B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D488032B5D280B00DA1500 /* VippsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VippsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D488072B5D280B00DA1500 /* VippsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestTests.swift; sourceTree = "<group>"; };
+		53D488092B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D4880E2B5D280B00DA1500 /* VippsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VippsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D488122B5D280B00DA1500 /* VippsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestUITests.swift; sourceTree = "<group>"; };
+		53D488142B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D487EF2B5D280800DA1500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D488002B5D280B00DA1500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D4880B2B5D280B00DA1500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D487E92B5D280700DA1500 = {
+			isa = PBXGroup;
+			children = (
+				53D487F42B5D280800DA1500 /* VippsTest */,
+				53D488062B5D280B00DA1500 /* VippsTestTests */,
+				53D488112B5D280B00DA1500 /* VippsTestUITests */,
+				53D487F32B5D280800DA1500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D487F32B5D280800DA1500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D487F22B5D280800DA1500 /* VippsTest.app */,
+				53D488032B5D280B00DA1500 /* VippsTestTests.xctest */,
+				53D4880E2B5D280B00DA1500 /* VippsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D487F42B5D280800DA1500 /* VippsTest */ = {
+			isa = PBXGroup;
+			children = (
+				53D487F52B5D280800DA1500 /* VippsTestApp.swift */,
+				53D487F72B5D280800DA1500 /* ContentView.swift */,
+				53D487F92B5D280B00DA1500 /* Assets.xcassets */,
+				53D487FE2B5D280B00DA1500 /* Info.plist */,
+				53D487FB2B5D280B00DA1500 /* Preview Content */,
+			);
+			path = VippsTest;
+			sourceTree = "<group>";
+		};
+		53D487FB2B5D280B00DA1500 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53D488062B5D280B00DA1500 /* VippsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D488072B5D280B00DA1500 /* VippsTestTests.swift */,
+				53D488092B5D280B00DA1500 /* Info.plist */,
+			);
+			path = VippsTestTests;
+			sourceTree = "<group>";
+		};
+		53D488112B5D280B00DA1500 /* VippsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53D488122B5D280B00DA1500 /* VippsTestUITests.swift */,
+				53D488142B5D280B00DA1500 /* Info.plist */,
+			);
+			path = VippsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D487F12B5D280800DA1500 /* VippsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D488172B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTest" */;
+			buildPhases = (
+				53D487EE2B5D280800DA1500 /* Sources */,
+				53D487EF2B5D280800DA1500 /* Frameworks */,
+				53D487F02B5D280800DA1500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VippsTest;
+			productName = VippsTest;
+			productReference = 53D487F22B5D280800DA1500 /* VippsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D488022B5D280B00DA1500 /* VippsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D4881A2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestTests" */;
+			buildPhases = (
+				53D487FF2B5D280B00DA1500 /* Sources */,
+				53D488002B5D280B00DA1500 /* Frameworks */,
+				53D488012B5D280B00DA1500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D488052B5D280B00DA1500 /* PBXTargetDependency */,
+			);
+			name = VippsTestTests;
+			productName = VippsTestTests;
+			productReference = 53D488032B5D280B00DA1500 /* VippsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53D4880D2B5D280B00DA1500 /* VippsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D4881D2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestUITests" */;
+			buildPhases = (
+				53D4880A2B5D280B00DA1500 /* Sources */,
+				53D4880B2B5D280B00DA1500 /* Frameworks */,
+				53D4880C2B5D280B00DA1500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D488102B5D280B00DA1500 /* PBXTargetDependency */,
+			);
+			name = VippsTestUITests;
+			productName = VippsTestUITests;
+			productReference = 53D4880E2B5D280B00DA1500 /* VippsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D487EA2B5D280700DA1500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					53D487F12B5D280800DA1500 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					53D488022B5D280B00DA1500 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 53D487F12B5D280800DA1500;
+					};
+					53D4880D2B5D280B00DA1500 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 53D487F12B5D280800DA1500;
+					};
+				};
+			};
+			buildConfigurationList = 53D487ED2B5D280800DA1500 /* Build configuration list for PBXProject "VippsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D487E92B5D280700DA1500;
+			productRefGroup = 53D487F32B5D280800DA1500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D487F12B5D280800DA1500 /* VippsTest */,
+				53D488022B5D280B00DA1500 /* VippsTestTests */,
+				53D4880D2B5D280B00DA1500 /* VippsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D487F02B5D280800DA1500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D487FD2B5D280B00DA1500 /* Preview Assets.xcassets in Resources */,
+				53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D488012B5D280B00DA1500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D4880C2B5D280B00DA1500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D487EE2B5D280800DA1500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D487F82B5D280800DA1500 /* ContentView.swift in Sources */,
+				53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D487FF2B5D280B00DA1500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D488082B5D280B00DA1500 /* VippsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D4880A2B5D280B00DA1500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D488132B5D280B00DA1500 /* VippsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D488052B5D280B00DA1500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D487F12B5D280800DA1500 /* VippsTest */;
+			targetProxy = 53D488042B5D280B00DA1500 /* PBXContainerItemProxy */;
+		};
+		53D488102B5D280B00DA1500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D487F12B5D280800DA1500 /* VippsTest */;
+			targetProxy = 53D4880F2B5D280B00DA1500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53D488152B5D280C00DA1500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D488162B5D280C00DA1500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D488182B5D280C00DA1500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VippsTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VippsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.VippsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53D488192B5D280C00DA1500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VippsTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VippsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.VippsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53D4881B2B5D280C00DA1500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VippsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.VippsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VippsTest.app/VippsTest";
+			};
+			name = Debug;
+		};
+		53D4881C2B5D280C00DA1500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VippsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.VippsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VippsTest.app/VippsTest";
+			};
+			name = Release;
+		};
+		53D4881E2B5D280C00DA1500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VippsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.VippsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VippsTest;
+			};
+			name = Debug;
+		};
+		53D4881F2B5D280C00DA1500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VippsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.VippsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VippsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D487ED2B5D280800DA1500 /* Build configuration list for PBXProject "VippsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D488152B5D280C00DA1500 /* Debug */,
+				53D488162B5D280C00DA1500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D488172B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D488182B5D280C00DA1500 /* Debug */,
+				53D488192B5D280C00DA1500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D4881A2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D4881B2B5D280C00DA1500 /* Debug */,
+				53D4881C2B5D280C00DA1500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D4881D2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D4881E2B5D280C00DA1500 /* Debug */,
+				53D4881F2B5D280C00DA1500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D487EA2B5D280700DA1500 /* Project object */;
+}
