@@ -1,6 +1,6 @@
 //
-//  VippsTestApp.swift
-//  VippsTest
+//  WikiTopicSearchApp.swift
+//  WikiTopicSearch
 //
 //  Created by SK on 21/01/24.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct VippsTestApp: App {
+struct WikiTopicSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WikipediaSearchHomeView()
         }
     }
 }

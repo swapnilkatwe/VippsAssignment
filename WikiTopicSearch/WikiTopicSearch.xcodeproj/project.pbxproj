@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F52B5D280800DA1500 /* VippsTestApp.swift */; };
-		53D487F82B5D280800DA1500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F72B5D280800DA1500 /* ContentView.swift */; };
+		534497D82B73FDD10084EC9D /* MockNetworkAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534497D72B73FDD10084EC9D /* MockNetworkAPIManager.swift */; };
+		5391CABB2B7400770051AFC6 /* WikiResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5391CABA2B7400770051AFC6 /* WikiResponse.json */; };
+		5391CAC42B743DC50051AFC6 /* WikiResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5391CABA2B7400770051AFC6 /* WikiResponse.json */; };
+		53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */; };
+		53B406972B5D35B000FAE7A2 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406962B5D35B000FAE7A2 /* TopicModel.swift */; };
+		53B406A02B5D361300FAE7A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B4069F2B5D361300FAE7A2 /* NetworkService.swift */; };
+		53B406A82B5D387200FAE7A2 /* NetworkAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406A72B5D387200FAE7A2 /* NetworkAPIManager.swift */; };
+		53B406AD2B5D3ADE00FAE7A2 /* DataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406AC2B5D3ADE00FAE7A2 /* DataParsing.swift */; };
+		53B406B32B5D3C5600FAE7A2 /* WikipediaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406B22B5D3C5600FAE7A2 /* WikipediaViewModel.swift */; };
+		53B406BC2B5D3DE900FAE7A2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406BB2B5D3DE900FAE7A2 /* Utilities.swift */; };
+		53D487F62B5D280800DA1500 /* WikiTopicSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F52B5D280800DA1500 /* WikiTopicSearchApp.swift */; };
+		53D487F82B5D280800DA1500 /* WikipediaSearchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */; };
 		53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487F92B5D280B00DA1500 /* Assets.xcassets */; };
 		53D487FD2B5D280B00DA1500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */; };
-		53D488082B5D280B00DA1500 /* VippsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488072B5D280B00DA1500 /* VippsTestTests.swift */; };
-		53D488132B5D280B00DA1500 /* VippsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488122B5D280B00DA1500 /* VippsTestUITests.swift */; };
+		53D488082B5D280B00DA1500 /* WikiTopicSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488072B5D280B00DA1500 /* WikiTopicSearchTests.swift */; };
+		53D488132B5D280B00DA1500 /* WikiTopicSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D488122B5D280B00DA1500 /* WikiTopicSearchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +43,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53D487F22B5D280800DA1500 /* VippsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VippsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		53D487F52B5D280800DA1500 /* VippsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestApp.swift; sourceTree = "<group>"; };
-		53D487F72B5D280800DA1500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		534497D72B73FDD10084EC9D /* MockNetworkAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkAPIManager.swift; sourceTree = "<group>"; };
+		5391CABA2B7400770051AFC6 /* WikiResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WikiResponse.json; sourceTree = "<group>"; };
+		53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSectionView.swift; sourceTree = "<group>"; };
+		53B406962B5D35B000FAE7A2 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		53B4069F2B5D361300FAE7A2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		53B406A72B5D387200FAE7A2 /* NetworkAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIManager.swift; sourceTree = "<group>"; };
+		53B406AC2B5D3ADE00FAE7A2 /* DataParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParsing.swift; sourceTree = "<group>"; };
+		53B406B22B5D3C5600FAE7A2 /* WikipediaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaViewModel.swift; sourceTree = "<group>"; };
+		53B406BB2B5D3DE900FAE7A2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		53D487F22B5D280800DA1500 /* WikiTopicSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiTopicSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D487F52B5D280800DA1500 /* WikiTopicSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiTopicSearchApp.swift; sourceTree = "<group>"; };
+		53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchHomeView.swift; sourceTree = "<group>"; };
 		53D487F92B5D280B00DA1500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D487FC2B5D280B00DA1500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53D487FE2B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53D488032B5D280B00DA1500 /* VippsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VippsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53D488072B5D280B00DA1500 /* VippsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestTests.swift; sourceTree = "<group>"; };
+		53D488032B5D280B00DA1500 /* WikiTopicSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiTopicSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D488072B5D280B00DA1500 /* WikiTopicSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiTopicSearchTests.swift; sourceTree = "<group>"; };
 		53D488092B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53D4880E2B5D280B00DA1500 /* VippsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VippsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53D488122B5D280B00DA1500 /* VippsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VippsTestUITests.swift; sourceTree = "<group>"; };
+		53D4880E2B5D280B00DA1500 /* WikiTopicSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiTopicSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D488122B5D280B00DA1500 /* WikiTopicSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiTopicSearchTests.swift; sourceTree = "<group>"; };
 		53D488142B5D280B00DA1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,12 +91,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53B406952B5D35A300FAE7A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53B406962B5D35B000FAE7A2 /* TopicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53B4069E2B5D35F600FAE7A2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				53B4069F2B5D361300FAE7A2 /* NetworkService.swift */,
+				53B406A72B5D387200FAE7A2 /* NetworkAPIManager.swift */,
+				53B406AC2B5D3ADE00FAE7A2 /* DataParsing.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		53B406B12B5D3C2F00FAE7A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				53B406B22B5D3C5600FAE7A2 /* WikipediaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53B406BA2B5D3DCD00FAE7A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53B406BB2B5D3DE900FAE7A2 /* Utilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		53D487E92B5D280700DA1500 = {
 			isa = PBXGroup;
 			children = (
-				53D487F42B5D280800DA1500 /* VippsTest */,
-				53D488062B5D280B00DA1500 /* VippsTestTests */,
-				53D488112B5D280B00DA1500 /* VippsTestUITests */,
+				53D487F42B5D280800DA1500 /* WikiTopicSearch */,
+				53D488062B5D280B00DA1500 /* WikiTopicSearchTests */,
+				53D488112B5D280B00DA1500 /* WikiTopicSearchUITests */,
 				53D487F32B5D280800DA1500 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +138,26 @@
 		53D487F32B5D280800DA1500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53D487F22B5D280800DA1500 /* VippsTest.app */,
-				53D488032B5D280B00DA1500 /* VippsTestTests.xctest */,
-				53D4880E2B5D280B00DA1500 /* VippsTestUITests.xctest */,
+				53D487F22B5D280800DA1500 /* WikiTopicSearch.app */,
+				53D488032B5D280B00DA1500 /* WikiTopicSearchTests.xctest */,
+				53D4880E2B5D280B00DA1500 /* WikiTopicSearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53D487F42B5D280800DA1500 /* VippsTest */ = {
+		53D487F42B5D280800DA1500 /* WikiTopicSearch */ = {
 			isa = PBXGroup;
 			children = (
-				53D487F52B5D280800DA1500 /* VippsTestApp.swift */,
-				53D487F72B5D280800DA1500 /* ContentView.swift */,
+				53B406BA2B5D3DCD00FAE7A2 /* Extensions */,
+				53B406B12B5D3C2F00FAE7A2 /* ViewModel */,
+				53B4069E2B5D35F600FAE7A2 /* Networking */,
+				53B406952B5D35A300FAE7A2 /* Model */,
+				53D488262B5D2A0D00DA1500 /* Views */,
 				53D487F92B5D280B00DA1500 /* Assets.xcassets */,
 				53D487FE2B5D280B00DA1500 /* Info.plist */,
 				53D487FB2B5D280B00DA1500 /* Preview Content */,
 			);
-			path = VippsTest;
+			path = WikiTopicSearch;
 			sourceTree = "<group>";
 		};
 		53D487FB2B5D280B00DA1500 /* Preview Content */ = {
@@ -112,30 +168,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		53D488062B5D280B00DA1500 /* VippsTestTests */ = {
+		53D488062B5D280B00DA1500 /* WikiTopicSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				53D488072B5D280B00DA1500 /* VippsTestTests.swift */,
+				53D488072B5D280B00DA1500 /* WikiTopicSearchTests.swift */,
+				534497D72B73FDD10084EC9D /* MockNetworkAPIManager.swift */,
+				5391CABA2B7400770051AFC6 /* WikiResponse.json */,
 				53D488092B5D280B00DA1500 /* Info.plist */,
 			);
-			path = VippsTestTests;
+			path = WikiTopicSearchTests;
 			sourceTree = "<group>";
 		};
-		53D488112B5D280B00DA1500 /* VippsTestUITests */ = {
+		53D488112B5D280B00DA1500 /* WikiTopicSearchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				53D488122B5D280B00DA1500 /* VippsTestUITests.swift */,
+				53D488122B5D280B00DA1500 /* WikiTopicSearchTests.swift */,
 				53D488142B5D280B00DA1500 /* Info.plist */,
 			);
-			path = VippsTestUITests;
+			path = WikiTopicSearchUITests;
+			sourceTree = "<group>";
+		};
+		53D488262B5D2A0D00DA1500 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53D487F52B5D280800DA1500 /* WikiTopicSearchApp.swift */,
+				53D487F72B5D280800DA1500 /* WikipediaSearchHomeView.swift */,
+				53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53D487F12B5D280800DA1500 /* VippsTest */ = {
+		53D487F12B5D280800DA1500 /* WikiTopicSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53D488172B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTest" */;
+			buildConfigurationList = 53D488172B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "WikiTopicSearch" */;
 			buildPhases = (
 				53D487EE2B5D280800DA1500 /* Sources */,
 				53D487EF2B5D280800DA1500 /* Frameworks */,
@@ -145,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = VippsTest;
+			name = WikiTopicSearch;
 			productName = VippsTest;
-			productReference = 53D487F22B5D280800DA1500 /* VippsTest.app */;
+			productReference = 53D487F22B5D280800DA1500 /* WikiTopicSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		53D488022B5D280B00DA1500 /* VippsTestTests */ = {
+		53D488022B5D280B00DA1500 /* WikiTopicSearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53D4881A2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestTests" */;
+			buildConfigurationList = 53D4881A2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "WikiTopicSearchTests" */;
 			buildPhases = (
 				53D487FF2B5D280B00DA1500 /* Sources */,
 				53D488002B5D280B00DA1500 /* Frameworks */,
@@ -163,14 +231,14 @@
 			dependencies = (
 				53D488052B5D280B00DA1500 /* PBXTargetDependency */,
 			);
-			name = VippsTestTests;
+			name = WikiTopicSearchTests;
 			productName = VippsTestTests;
-			productReference = 53D488032B5D280B00DA1500 /* VippsTestTests.xctest */;
+			productReference = 53D488032B5D280B00DA1500 /* WikiTopicSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		53D4880D2B5D280B00DA1500 /* VippsTestUITests */ = {
+		53D4880D2B5D280B00DA1500 /* WikiTopicSearchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53D4881D2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestUITests" */;
+			buildConfigurationList = 53D4881D2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "WikiTopicSearchUITests" */;
 			buildPhases = (
 				53D4880A2B5D280B00DA1500 /* Sources */,
 				53D4880B2B5D280B00DA1500 /* Frameworks */,
@@ -181,9 +249,9 @@
 			dependencies = (
 				53D488102B5D280B00DA1500 /* PBXTargetDependency */,
 			);
-			name = VippsTestUITests;
+			name = WikiTopicSearchUITests;
 			productName = VippsTestUITests;
-			productReference = 53D4880E2B5D280B00DA1500 /* VippsTestUITests.xctest */;
+			productReference = 53D4880E2B5D280B00DA1500 /* WikiTopicSearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53D487ED2B5D280800DA1500 /* Build configuration list for PBXProject "VippsTest" */;
+			buildConfigurationList = 53D487ED2B5D280800DA1500 /* Build configuration list for PBXProject "WikiTopicSearch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53D487F12B5D280800DA1500 /* VippsTest */,
-				53D488022B5D280B00DA1500 /* VippsTestTests */,
-				53D4880D2B5D280B00DA1500 /* VippsTestUITests */,
+				53D487F12B5D280800DA1500 /* WikiTopicSearch */,
+				53D488022B5D280B00DA1500 /* WikiTopicSearchTests */,
+				53D4880D2B5D280B00DA1500 /* WikiTopicSearchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5391CAC42B743DC50051AFC6 /* WikiResponse.json in Resources */,
 				53D487FD2B5D280B00DA1500 /* Preview Assets.xcassets in Resources */,
 				53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */,
 			);
@@ -242,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5391CABB2B7400770051AFC6 /* WikiResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D487F82B5D280800DA1500 /* ContentView.swift in Sources */,
-				53D487F62B5D280800DA1500 /* VippsTestApp.swift in Sources */,
+				53B406A02B5D361300FAE7A2 /* NetworkService.swift in Sources */,
+				53D487F82B5D280800DA1500 /* WikipediaSearchHomeView.swift in Sources */,
+				53B406972B5D35B000FAE7A2 /* TopicModel.swift in Sources */,
+				53B406AD2B5D3ADE00FAE7A2 /* DataParsing.swift in Sources */,
+				53B406A82B5D387200FAE7A2 /* NetworkAPIManager.swift in Sources */,
+				53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */,
+				53B406BC2B5D3DE900FAE7A2 /* Utilities.swift in Sources */,
+				53B406B32B5D3C5600FAE7A2 /* WikipediaViewModel.swift in Sources */,
+				53D487F62B5D280800DA1500 /* WikiTopicSearchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D488082B5D280B00DA1500 /* VippsTestTests.swift in Sources */,
+				53D488082B5D280B00DA1500 /* WikiTopicSearchTests.swift in Sources */,
+				534497D82B73FDD10084EC9D /* MockNetworkAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D488132B5D280B00DA1500 /* VippsTestUITests.swift in Sources */,
+				53D488132B5D280B00DA1500 /* WikiTopicSearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +363,12 @@
 /* Begin PBXTargetDependency section */
 		53D488052B5D280B00DA1500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53D487F12B5D280800DA1500 /* VippsTest */;
+			target = 53D487F12B5D280800DA1500 /* WikiTopicSearch */;
 			targetProxy = 53D488042B5D280B00DA1500 /* PBXContainerItemProxy */;
 		};
 		53D488102B5D280B00DA1500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53D487F12B5D280800DA1500 /* VippsTest */;
+			target = 53D487F12B5D280800DA1500 /* WikiTopicSearch */;
 			targetProxy = 53D4880F2B5D280B00DA1500 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,9 +496,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"VippsTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WikiTopicSearch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = VippsTest/Info.plist;
+				INFOPLIST_FILE = WikiTopicSearch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,9 +517,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"VippsTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WikiTopicSearch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = VippsTest/Info.plist;
+				INFOPLIST_FILE = WikiTopicSearch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +549,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VippsTest.app/VippsTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiTopicSearch.app/WikiTopicSearch";
 			};
 			name = Debug;
 		};
@@ -492,7 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VippsTest.app/VippsTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiTopicSearch.app/WikiTopicSearch";
 			};
 			name = Release;
 		};
@@ -537,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53D487ED2B5D280800DA1500 /* Build configuration list for PBXProject "VippsTest" */ = {
+		53D487ED2B5D280800DA1500 /* Build configuration list for PBXProject "WikiTopicSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53D488152B5D280C00DA1500 /* Debug */,
@@ -546,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53D488172B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTest" */ = {
+		53D488172B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "WikiTopicSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53D488182B5D280C00DA1500 /* Debug */,
@@ -555,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53D4881A2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestTests" */ = {
+		53D4881A2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "WikiTopicSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53D4881B2B5D280C00DA1500 /* Debug */,
@@ -564,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53D4881D2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "VippsTestUITests" */ = {
+		53D4881D2B5D280C00DA1500 /* Build configuration list for PBXNativeTarget "WikiTopicSearchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53D4881E2B5D280C00DA1500 /* Debug */,
