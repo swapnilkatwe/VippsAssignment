@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534497D82B73FDD10084EC9D /* MockNetworkAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534497D72B73FDD10084EC9D /* MockNetworkAPIManager.swift */; };
+		5391CABB2B7400770051AFC6 /* WikiResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5391CABA2B7400770051AFC6 /* WikiResponse.json */; };
+		5391CAC42B743DC50051AFC6 /* WikiResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5391CABA2B7400770051AFC6 /* WikiResponse.json */; };
 		53B406912B5D2EDF00FAE7A2 /* SearchSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */; };
 		53B406972B5D35B000FAE7A2 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B406962B5D35B000FAE7A2 /* TopicModel.swift */; };
 		53B406A02B5D361300FAE7A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B4069F2B5D361300FAE7A2 /* NetworkService.swift */; };
@@ -40,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		534497D72B73FDD10084EC9D /* MockNetworkAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkAPIManager.swift; sourceTree = "<group>"; };
+		5391CABA2B7400770051AFC6 /* WikiResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WikiResponse.json; sourceTree = "<group>"; };
 		53B406902B5D2EDF00FAE7A2 /* SearchSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSectionView.swift; sourceTree = "<group>"; };
 		53B406962B5D35B000FAE7A2 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
 		53B4069F2B5D361300FAE7A2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -167,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				53D488072B5D280B00DA1500 /* VippsTestTests.swift */,
+				534497D72B73FDD10084EC9D /* MockNetworkAPIManager.swift */,
+				5391CABA2B7400770051AFC6 /* WikiResponse.json */,
 				53D488092B5D280B00DA1500 /* Info.plist */,
 			);
 			path = VippsTestTests;
@@ -294,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5391CAC42B743DC50051AFC6 /* WikiResponse.json in Resources */,
 				53D487FD2B5D280B00DA1500 /* Preview Assets.xcassets in Resources */,
 				53D487FA2B5D280B00DA1500 /* Assets.xcassets in Resources */,
 			);
@@ -303,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5391CABB2B7400770051AFC6 /* WikiResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53D488082B5D280B00DA1500 /* VippsTestTests.swift in Sources */,
+				534497D82B73FDD10084EC9D /* MockNetworkAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
