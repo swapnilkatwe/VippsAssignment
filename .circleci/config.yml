@@ -4,7 +4,7 @@
 
 version: 2.1
 
-jobs: # a basic unit of work in a run
+jobs: 
   test: # your job name
     macos:
       xcode: 15.3 # indicate your selected version of Xcode
