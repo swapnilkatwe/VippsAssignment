@@ -1,43 +1,40 @@
 # Couldn't automatically generate a config from your source code.
 # This is a generic template to serve as a base for your custom config
 # See: https://circleci.com/docs/configuration-reference
+
 version: 2.1
-jobs:
-  test:
-    docker:
-      - image: cimg/base:stable
-    steps:
-      - checkout
-      # Replace this with a real test runner invocation
+
+jobs: # a basic unit of work in a run
+  test: # your job name
+    macos:
+      xcode: 15.3 # indicate your selected version of Xcode
+    steps: # a series of commands to run
+      - checkout  # pull down code from your version control system.
       - run:
-          name: Run tests
-          command: echo 'replace me with real tests!' && false
+          name: Run Unit Tests
+          command: xcodebuild test -scheme circleci-demo-macos
+
   build:
-    docker:
-      - image: cimg/base:stable
+    macos:
+      xcode: 15.3 # indicate your selected version of Xcode
     steps:
       - checkout
-      # Replace this with steps to build a package, or executable
       - run:
-          name: Build an artifact
-          command: touch example.txt
-      - store_artifacts:
-          path: example.txt
-  deploy:
-    docker:
-      - image: cimg/base:stable
-    steps:
-      # Replace this with steps to deploy to users
+          # build our application
+          name: Build Application
+          command: xcodebuild
       - run:
-          name: deploy
-          command: '#e.g. ./deploy.sh'
+          # compress Xcode's build output so that it can be stored as an artifact
+          name: Compress app for storage
+          command: zip -r app.zip build/Release/circleci-demo-macos.app
+      #- store_artifacts: # store this build output. Read more: https://circleci.com/docs/2.0/artifacts/
+       #   path: app.zip
+        #  destination: app
+          
 workflows:
-  example:
+  test_build:
     jobs:
       - test
       - build:
-          requires:
-            - test
-      - deploy:
           requires:
             - test
