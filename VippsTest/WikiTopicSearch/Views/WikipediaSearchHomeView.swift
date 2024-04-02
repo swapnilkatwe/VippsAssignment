@@ -1,6 +1,6 @@
 //
 //  WikipediaSearchHomeView.swift
-//  VippsTest
+//  WikiTopicSearch
 //
 //  Created by SK on 21/01/24.
 //

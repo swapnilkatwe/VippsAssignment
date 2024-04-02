@@ -1,12 +1,12 @@
 //
 //  MockNetworkAPIManager.swift
-//  VippsTestTests
+//  WikiTopicSearchTests
 //
 //  Created by SK on 07/02/24.
 //
 
 import Foundation
-@testable import VippsTest
+@testable import WikiTopicSearch
 final class MockNetworkAPIManager: NetworkService {
 
     func fetchData(forURL url: URL, queryParam: [URLQueryItem]?, completion: @escaping (Result<Data, NetworkError>) -> Void) {

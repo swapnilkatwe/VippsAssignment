@@ -22,7 +22,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>com.sk.VippsTest</string>
+			<string>com.sk.WikiTopicSearch</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>testUrl</string>

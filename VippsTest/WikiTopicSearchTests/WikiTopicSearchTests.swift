@@ -1,15 +1,15 @@
 //
-//  VippsTestTests.swift
-//  VippsTestTests
+//  WikiTopicSearchTests.swift
+//  WikiTopicSearchTests
 //
 //  Created by SK on 21/01/24.
 //
 
 import XCTest
-@testable import VippsTest
+@testable import WikiTopicSearch
 import Combine
 
-class VippsTestTests: XCTestCase {
+class WikiTopicSearchTests: XCTestCase {
     var viewModel: WikipediaViewModel!
     
     override func setUpWithError() throws {

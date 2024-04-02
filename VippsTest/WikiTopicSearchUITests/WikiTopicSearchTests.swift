@@ -1,13 +1,13 @@
 //
-//  VippsTestUITests.swift
-//  VippsTestUITests
+//  WikiTopicSearchUITests.swift
+//  WikiTopicSearchUITests
 //
 //  Created by SK on 21/01/24.
 //
 
 import XCTest
 
-class VippsTestUITests: XCTestCase {
+class WikiTopicSearchUITests: XCTestCase {
 
     private var app: XCUIApplication!
     
